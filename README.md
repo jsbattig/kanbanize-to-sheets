@@ -4,7 +4,7 @@ Utility to easily get data from Kanbanize into Google Sheets (and more)
 Use KanbanizeReader.js to read data into a sheet.
 Basic code to read looks like this:
 
-```
+```javascript
 var spreadsheet = SpreadsheetApp.openById("<you sheet ID>");
 var sheet = spreadsheet.getSheetByName("TestSheet");
 var reader = new KanbanizeReader("https://ascentis.kanbanize.com", "<your Kanbanize API key>"); 
@@ -16,7 +16,7 @@ You can use Kanbanize Progress Aggregator.gs to calculate total size of top leve
 
 Example code:
 
-```
+```javascript
 var spreadsheet = SpreadsheetApp.openById("<you spreadsheet ID>"); 
 var sheet = spreadsheet.getSheetByName("TestSheet");
 var aggregator = new KanbanizeProgressAggregator(sheet);
