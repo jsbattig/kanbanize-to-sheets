@@ -1,0 +1,17 @@
+{
+  "timeZone": "America/Los_Angeles",
+  "dependencies": {
+    "libraries": [{
+      "userSymbol": "SheetsHelperLibrary",
+      "libraryId": "1HoBIdMV0uxYrNLamZW6wixp3riHd5tuCmZ4G6PaRAjWWtZxoYZuckkBy",
+      "version": "13",
+      "developmentMode": true
+    }, {
+      "userSymbol": "SimpleMap",
+      "libraryId": "1fVqW1X_zVInDrDMBpOX-puLtmkViWeseQzGSk8Vb92SXVmPmaABCeL7-",
+      "version": "5",
+      "developmentMode": true
+    }]
+  },
+  "exceptionLogging": "STACKDRIVER"
+}
